@@ -2,6 +2,7 @@ import bs
 import random
 import bsUtils
 import settings 
+#powerName by PCModder or Avarohana
 
 defaultPowerupInterval = 8000
 
@@ -436,6 +437,25 @@ class Powerup(bs.Actor):
         # animate in..
         curve = bs.animate(self.node,"modelScale",{0:0,140:1.6,200:1})
         bs.gameTimer(200,curve.delete)
+        color = (0,0,1)
+
+        name = True
+        if name:
+            m = bs.newNode('math', owner=self.node, attrs={'input1': (0, 0.7, 0), 'operation': 'add'})
+            self.node.connectAttr('position', m, 'input2')
+            self.nodeText = bs.newNode('text',
+                                       owner=self.node,
+                                       attrs={'text': powerupType,#by PCModderor Avarohana
+                                              'inWorld': True,
+                                              'shadow': 1.0,
+                                              'flatness': 1.0,
+                                              'color': color,
+                                              'scale': 0.0,
+                                              'hAlign': 'center'})
+            m.connectAttr('output', self.nodeText, 'position')
+            bs.animate(self.nodeText, 'scale', {0: 0, 140: 0.016, 200: 0.01})
+            bs.animateArray(self.nodeText,'color',3,{0:(0,0,2),500:(0,2,0),1000:(2,0,0),1500:(2,2,0),2000:(2,0,2),2500:(0,1,6),3000:(1,2,0)},True)
+            bs.emitBGDynamics(position=self.nodeText.position, velocity=self.node.position, count=75, scale=1.0, spread=1.3, chunkType='spark')
         
         if settings.night == True:
             self.shield = bs.newNode('light', owner=self.node,
