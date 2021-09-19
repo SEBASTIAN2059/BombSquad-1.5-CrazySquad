@@ -1,3 +1,6 @@
-Just extract the files into ONE FOLDER! and then click the Bombsquad.exe and it should start up.
+Just extract the file and then click the Bombsquad.exe and it should start up.
 
-REMEMBER TO EXTRACT ALL THE FiLES INTO ONE FOLDER.
+LINK: http://www.mediafire.com/file/mh0xx8qymo4jboy/CrazySquad-PC.zip
+
+PC Version given by PCModder or Avarohana
+Modpack by SEBASTIAN2059
