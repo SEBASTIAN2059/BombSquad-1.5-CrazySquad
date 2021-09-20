@@ -4,8 +4,9 @@ Hey hola!
     
 Hey, 
    
-    Enjoy both android and PC/Windows version!
+    Enjoy both android version!
+    PC version coming soon!
     
     
  Crazysquad by Sebastian2059
- Ported to Windows by PCModder/Avarohana
+ PCModder/Avarohana and SEBASTIAN2059 are working on the pc version!
