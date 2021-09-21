@@ -10,3 +10,10 @@ Hey,
     
  modpack Crazysquad creado por SEBASTIAN2059
  modpack para windows - Avarohana or PCModder
+ 
+ Goals - fix or add textures
+        Add power mods
+        Add PC Chat Cmds
+        Add Floater
+        Add bomb mods
+        Add mods
