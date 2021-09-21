@@ -8,5 +8,4 @@ Hey,
     PC version coming soon!
     
     
- Crazysquad by Sebastian2059
- PCModder/Avarohana and SEBASTIAN2059 are working on the pc version!
+ modpack Crazysquad creado por SEBASTIAN2059
