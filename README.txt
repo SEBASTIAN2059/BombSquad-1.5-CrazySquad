@@ -4,8 +4,8 @@ Hey hola!
     
 Hey, 
    
-    Enjoy both android version!
-    PC version coming soon!
+    Disfruta la version de android!
+    La version para PC/Windows proximamente.
     
     
  modpack Crazysquad creado por SEBASTIAN2059
